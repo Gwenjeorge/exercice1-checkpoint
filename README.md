@@ -1,1 +1,0 @@
-# exercice1-checkpoint
