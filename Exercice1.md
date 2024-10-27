@@ -41,7 +41,7 @@ Entrez  ``` df -h``` pour véritifier qu'une partition sdb1 a bien été monté 
 Pour la partition SWAP, nous allons utiliser l'autre méthode : fdisk  
 `n` pour créer une nouvelle partition  
  `p` pour une partition primaire.  
-Utiliser ensuite le numéro par défault (ici2) et l'espace par default (fisk va automatiquement utiliser tout l'espace restant disponible, 4G)  
+Utiliser ensuite le numéro par défault (ici2) et l'espace par default (fdisk va automatiquement utiliser tout l'espace restant disponible, 4G)  
 `t` puis `82` pour choisir le type swap  
 `w` pour écrire les modifications  
 
