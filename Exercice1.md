@@ -71,8 +71,8 @@ On retrouve l'UUID, le point de montage, le type, et les configuration par défa
 
 Ensuite redémarrer la VM : ``` reboot```  
 
-``` lsblk```pour vérifier que le disque sdb1 est toujours monté
+``` lsblk -f```pour vérifier que le disque sdb1 est toujours monté
 
-![1](https://github.com/Gwenjeorge/exercice1-checkpoint/blob/main/Ex1_Screenshots/21reboot.png)
+![1](https://github.com/Gwenjeorge/exercice1-checkpoint/blob/main/Ex1_Screenshots/22end.png)
 
 On peut  voir en revanche que le swap a rebasculé au redémarrage sur le disque sda5, le fichier fstab n'ayant été modifié que pour le disque DATA (sdb1)
